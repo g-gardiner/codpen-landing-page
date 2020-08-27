@@ -1,0 +1,305 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.65fr;
+  background: black;
+  outline: solid 10px;
+  outline-color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+/* left column */
+
+.nav-bar > .nav-left {
+  width: 310px;
+}
+
+.nav-bar > .nav-left img {
+  height: 45px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 10px;
+  padding-right: 0px;
+}
+
+/*center-column*/
+
+.nav-bar > .nav-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: white;
+  width: 500px;
+}
+
+.nav-bar > .nav-center > .pens-section {
+  color: #ffdd40;
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 0px;
+  font-size: 15px;
+  color: white;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(1) {
+  margin-top: 0px;
+  padding-right: 10px;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(2) {
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(3) {
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(4) {
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(5) {
+  margin-top: 0px;
+  padding-left: 30px;
+
+  color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  font-weight: normal;
+}
+
+.nav-bar > .nav-center > .pens-section > .pens-section-columns :nth-child(5) i {
+  padding-left: 20px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* right column */
+
+.nav-bar > .nav-right {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.75fr 0.75fr;
+  grid-gap: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.nav-bar > .nav-right h2 {
+  background-color: #252830;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.nav-bar > .nav-right :nth-child(1) i {
+  color: #32cc72;
+  padding-left: 8px;
+}
+
+.nav-bar > .nav-right :nth-child(2) {
+  background-color: black;
+  font-size: 35px;
+  padding-top: 0px;
+  margin-top: 12px;
+  height: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #596073;
+}
+
+/* body */
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(59, 64, 75, 1) 0%,
+    rgba(19, 21, 25, 1) 100%
+  );
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.page-content {
+  color: white;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  display: grid;
+  grid-template-rows: 1.75fr 0.25fr;
+  grid-gap: 0px;
+  height: 645px;
+  width: 100%;
+}
+
+.page-content > .content-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Lato" sans-serif;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.page-content > .content-columns > .welcome {
+  display: grid;
+  grid-template-rows: 0.25fr 0.25fr 0.15fr;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+body h3 {
+  font-size: 45px;
+  font-weight: lighter;
+  color: #dedfe3;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.page-content > .content-columns > .welcome h2 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #9a9b9d;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+.page-content > .content-columns > .welcome > .welcome-buttons {
+  display: grid;
+  grid-template-columns: 0.4fr 0.3fr;
+  grid-gap: 20px;
+  height: 45px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+  z-index: 2;
+}
+
+body h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  padding-left: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.page-content > .content-columns > .welcome > .welcome-buttons :nth-child(1) {
+  background-color: #32cc72;
+  color: black;
+}
+
+.page-content > .content-columns > .welcome > .welcome-buttons :nth-child(2) {
+  background-color: black;
+  color: white;
+}
+
+/* body right column */
+
+.content-columns > .image-section {
+  justify-self: end;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-top: 30px;
+}
+
+.content-columns > .image-section > .image-section-message {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.content-columns > .image-section > .image-section-message a {
+  color: #60c3eb;
+  text-decoration: none;
+}
+
+.content-columns > .image-section img {
+  height: 650px;
+  padding-right: 0px;
+  height: 450px;
+  width: 100%;
+  justify-self: end;
+  border-radius: 5px;
+  box-shadow: -14px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* footer */
+
+.page-content > .footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 100px;
+  background: #131519;
+  border-bottom: solid 5px;
+  border-right: solid 5px;
+  border-left: solid 5px;
+  border-color: #131519;
+  box-shadow: -4px -19px 103px 32px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.page-content > .footer-content h5 {
+  outline: solid 3px;
+  outline-color: #5b6276;
+  background: #373b47;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
+  height: 40px;
+  font-weight: normal;
+}
+
+.page-content > .footer-content h5 b {
+  font-family: "Alata", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
